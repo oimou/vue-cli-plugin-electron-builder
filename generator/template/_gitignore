@@ -1,6 +1,6 @@
 ---
 extend: '@vue/cli-service/generator/template/_gitignore'
-replace: !!js/regexp /\/dist/
+replace: !!js/regexp /\/dist[\n$]/
 ---
 
 /dist
